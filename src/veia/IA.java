@@ -13,11 +13,11 @@ public class IA {
 
 	public class InterfaceGame implements ActionListener {
 
-	    static int      moveCount = 0;
-	    static JFrame   BoardFrame;
-	    static JButton  board[][] = new JButton[3][3];
-	    static int      IA = 0;               
-	    static int      PLAYER = 1;
+	    int      moveCount = 0;
+	    JFrame   BoardFrame;
+	    JButton  board[][] = new JButton[3][3];
+	    int      IA = 0;               
+	    int      PLAYER = 1;
 
 	    List<Move> freeMoves;
 	    List<Classification> childNode;
